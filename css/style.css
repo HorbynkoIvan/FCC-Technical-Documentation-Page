@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    background: #eeeeee;
 }
 
 * {
@@ -20,7 +21,16 @@ li {
 a {
     text-decoration: none;
 }
-
+.header{
+    font-size: 24px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+#The_Manufacturing_Process h3{
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: bold;
+}
 #navbar {
     position: fixed;
     top: 0;
