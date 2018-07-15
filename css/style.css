@@ -21,16 +21,19 @@ li {
 a {
     text-decoration: none;
 }
-.header{
+
+.header {
     font-size: 24px;
     margin: 15px 0;
     font-weight: bold;
 }
-#The_Manufacturing_Process h3{
+
+#The_Manufacturing_Process h3 {
     font-size: 20px;
     margin: 15px 0;
     font-weight: bold;
 }
+
 #navbar {
     position: fixed;
     top: 0;
@@ -127,4 +130,37 @@ a {
     margin-left: 320px;
     padding: 20px;
     margin-bottom: 110px;
+}
+
+#Raw_Materials code {
+    display: block;
+    margin: 10px 0;
+}
+
+#The_Manufacturing_Process span {
+    font-weight: bold;
+}
+
+#The_Manufacturing_Process span:before {
+    content: "\25b6"
+}
+
+.gale_imggroup {
+    float: right;
+    margin: 15px 0 15px 20px;
+    padding-left: 15px;
+    border-left: 1px dotted silver;
+    clear: right;
+}
+
+.gale_imggroup img {
+    border-radius: 10px;
+    max-width: 520px;
+    height: auto;
+}
+
+.gale_imggroup .caption {
+    max-width: 480px;
+    font-size: 13px;
+    color: grey;
 }
