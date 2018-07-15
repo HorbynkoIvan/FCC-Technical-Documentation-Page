@@ -150,7 +150,6 @@ a {
     margin: 15px 0 15px 20px;
     padding-left: 15px;
     border-left: 1px dotted silver;
-    clear: right;
 }
 
 .gale_imggroup img {
@@ -163,4 +162,29 @@ a {
     max-width: 480px;
     font-size: 13px;
     color: grey;
+}
+
+@media screen and (max-width: 420px) {
+    #navbar {
+        position: static;
+        width: 100%;
+        height: auto;
+
+    }
+
+    #main-doc {
+        position: static;
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .gale_imggroup {
+        float: none;
+        margin: 15px 0 15px 0px;
+        padding-left: 0px;
+    }
+    .gale_imggroup img {
+        max-width: 420px;
+    }
 }
