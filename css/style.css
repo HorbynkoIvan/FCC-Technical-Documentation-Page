@@ -132,6 +132,10 @@ a {
     margin-bottom: 110px;
 }
 
+.main-section header:before {
+    content: "#";
+}
+
 #Raw_Materials code {
     display: block;
     margin: 10px 0;
@@ -179,11 +183,13 @@ a {
         margin: 0 auto;
         padding: 10px;
     }
+
     .gale_imggroup {
         float: none;
         margin: 15px 0 15px 0px;
         padding-left: 0px;
     }
+
     .gale_imggroup img {
         max-width: 420px;
     }
